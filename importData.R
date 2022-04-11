@@ -2,7 +2,6 @@
 setwd(Sys.getenv("hvs"))
 
 #### load data ####
-i
 # data 1
 x <- fread("Data/CSV/Testergebnisse 2. HVS-Sichtung Jg. 2003 05-2016.csv", check.names=TRUE, header=TRUE)
 cols <- c(
